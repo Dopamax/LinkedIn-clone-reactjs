@@ -1,0 +1,8 @@
+.rightDiv-container{
+    z-index: 1;
+    width: 290px;
+    position: relative;
+    left: 50px;
+    top: 35px;
+    height: 400px;
+}

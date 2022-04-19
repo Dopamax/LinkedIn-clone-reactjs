@@ -1,0 +1,11 @@
+.body{
+background-color: rgb(238, 236, 236);
+height:fit-content;
+display: grid;
+width: 100vw;
+gap: 20px;
+grid-template-columns: 300px 600px 300px;
+z-index: 0;
+}
+
+

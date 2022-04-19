@@ -1,0 +1,45 @@
+.profil-suggestions-card-container{
+    position: relative;
+    top: 0px;
+    background-color: white;
+    border: 1px solid rgb(214, 214, 214);
+    border-radius: 15px;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+.profil-suggestions-card-header{
+    position: relative;
+    left: 10px;
+    top: -10px;
+    display: flex;
+    justify-content: space-between;
+}
+.card-suggestions-header-title{
+    font-weight: 500;
+}
+
+.card-suggestions-header-icone{
+    position: relative;
+    width: 17px;
+    height: 17px;
+    top: 23px;
+    left: -20px;
+
+}
+
+.profil-suggestions-card-content{
+    position: relative;
+    margin-top: 5px;
+}
+.profil-suggestions-card-footer{
+    position: relative;
+    top: -25px;
+    left: 10px;
+}
+
+.profil-suggestions-card-footer h5{
+    font-weight: 500;
+    color: grey;
+    letter-spacing: 0.04rem;
+}

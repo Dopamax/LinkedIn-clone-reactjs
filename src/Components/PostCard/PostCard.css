@@ -1,0 +1,216 @@
+.post-card-container{
+    position: relative;
+    top: 50px;
+    background-color: white;
+    border: 1px solid rgb(214, 214, 214);
+    border-radius: 15px;
+    width: 100%;
+    height: 950px;
+    z-index: 1;
+    margin-bottom: 30px;
+}
+.post-card-header{
+    height: 50px;
+    border-bottom: 1px solid rgb(224, 224, 224);
+    margin-inline: 15px;
+}
+.post-card-header-img{
+    position: relative;
+    top: 8px;
+    left: 8px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+}
+
+.post-header-profil-name{
+    position: relative;
+    top: -47px;
+    left: 50px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.post-header-profil-reaction{
+    position: relative;
+    top:-86px;
+    left: 122px;
+    font-weight: 400;
+    color: grey;
+}
+
+.post-header-menu-btn{
+    position: relative;
+    top: -130px;
+    left: 540px;
+}
+
+.actor-who-shared-this{
+    position: relative;
+    left: 15px;
+}
+
+.actor-item-profil-img{
+    position: relative;
+    width: 70px;
+    border-radius: 50px;
+    top: 10px;
+}
+
+.actor-item-profil-info{
+    position: relative;
+    top: -80px;
+    left: 70px;
+    display: inline-block;
+    justify-content: flex-start;
+    width: 250px;
+}
+
+.actor-item-profil-info-name{
+    position: relative;
+    top: 0px;
+    font-weight: 500;
+}
+
+.actor-item-profil-info-poste{
+    position: relative;
+    top: -20px;
+    font-weight: 300;
+    color: rgb(163, 162, 162);
+    text-align: justify;
+}
+.actor-item-profil-btn{
+    position: relative;
+    border: 0px;
+    width: 110px;
+    height: 40px;
+    color: rgb(38, 59, 245);
+    font-size: large;
+    padding-top: -20px;
+    top: -110px;
+    left: 380px;
+    background-color: white;
+}
+
+.actor-item-profil-btn span{
+    font-size: x-large;
+    position: relative;
+    left: -5px;
+}
+
+.posted_at{
+    position: relative;
+    top: -40px;
+    left: 0px;
+    font-weight: 300;
+    color: grey;
+}
+.post_confidentiality-ic{
+    position: relative;
+    top: -90px;
+    left: 28px;
+    width: 16px;
+    height: 16px;
+
+}
+
+.post-card-content{
+    position: relative;
+    top: -180px;
+    padding-inline: 30px;
+}
+
+.post-card-content-text{
+    position: relative;
+}
+
+.post-card-content-img{
+    position: relative;
+    left: 0px;
+    width: 100%;
+    height: 600px;
+}
+
+.post-card-footer{
+position: relative;
+top: -180px;
+}
+
+.post-card-footer-head{
+    position: relative;
+    margin-inline: 30px;
+    display: flex;
+    justify-content: space-between;
+    height: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid rgb(214, 212, 212);
+}
+
+.reaction-text{
+    position: relative;
+    top: -45px;
+    left: 20px;
+    font: 300;
+    color: grey;
+    font-weight: 300;
+
+}
+
+.post-card-footer-head-likes{
+width: fit-content;
+}
+
+.post-card-footer-head-shares-comments{
+    position: relative;
+    top: -22px;
+    display: flex;
+    justify-content: end;
+    width: fit-content;
+}
+
+.number-comments-text{
+    
+    font: 300;
+    color: grey;
+    font-weight: 300;
+    margin-inline-start: 5px;
+}
+
+.number-shares-text{
+   
+    font: 300;
+    color: grey;
+    font-weight: 300;
+    margin-inline-start: 5px;
+}
+
+.post-card-footer-body{
+position: relative;
+}
+
+.post-card-footer-body-list{
+    position: relative;
+    top:0px;
+    left: 0px;
+    list-style-type: none;
+}
+
+.post-card-footer-body-element{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    display: inline-block;
+    margin-inline-start: 10px;
+    width: 130px;
+}
+.post-card-footer-body-element-img{
+position: relative;
+}
+
+.post-card-footer-body-element-text{
+    position: relative;
+    top: -48px;
+    left: 30px;
+    color: grey;
+    font-weight: 500;
+}

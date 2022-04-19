@@ -1,0 +1,120 @@
+.navbar{
+    background-color: white;
+    height: 70px;
+}
+
+.logo{
+    position: relative;
+    top:15px;
+    left: 90px;
+    width: fit-content;
+}
+.logo-pic{
+    color: blue;
+}
+
+.searchbar{
+    position: absolute;
+    top:15px;
+    left: 134px;
+    background-color: #eef3f8;
+    color: grey;
+    padding-inline-start: 37px;
+    border: 1px solid white;
+    height: 37px;
+    border-radius: 5px;
+}
+
+.searchbar:focus{
+    border: 1px solid white;
+}
+
+.icone-search{
+    position: absolute;
+    top:25px;
+    left: 148px;
+    color: grey;
+    z-index: 1;
+}
+
+
+.navbar-list{
+position: absolute;
+top:0px;
+left: 350px;
+list-style-type: none;
+}
+
+.list-element{
+position :relative;
+top:-8px;
+height: 0px;
+width: 100px;
+display: inline-block;
+
+}
+.list-element-underline{
+    position: relative;
+    top: -32px;
+    border-bottom: 2px solid black;;
+}
+.list-element-img{
+position: relative;
+top: 0px;
+left: 30px;
+}
+.list-element-text{
+display: flex;
+justify-content: center;
+position: relative;
+top:-25px;
+left: -5px;
+text-decoration: none;
+font-size: 12px;
+font-weight: 100;
+margin-top: 24px;
+}
+
+.list-element-text:focus{
+display: flex;
+justify-content: center;
+position: relative;
+top:-25px;
+left: -5px;
+text-decoration: none;
+font-size: 12px;
+font-weight: 100;
+border-bottom: 2px solid black;
+}
+
+.list-element-link{
+text-decoration: none;
+padding-bottom: 15px;
+color: black;
+
+}
+
+.list-element-img-avatar{
+border-radius: 50px;
+position: relative;
+top: 0px;
+left: 31px;
+height: 28px;
+}
+
+.v-divider{
+border-right: 1px solid rgb(214, 211, 211);
+height: 50px;
+}
+
+.w-100{
+width: 130px;
+left : -10px;
+}
+.m-3{
+margin-inline-start: 20px;
+}
+.m-icone-publier-offre{
+margin-inline-start: 10px;
+}
+

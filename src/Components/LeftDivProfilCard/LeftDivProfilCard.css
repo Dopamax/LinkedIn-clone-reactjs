@@ -1,0 +1,115 @@
+.container{
+    width:230px;
+    height: 390px;
+    border-radius: 12px;
+    background-color: white;
+}
+.card-header{
+    border-top:1px solid rgb(231, 231, 231);
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    display: flex;
+    justify-content: center;
+    z-index: 0;
+    background-color: rgb(161, 187, 204);
+}
+.img-avatar{
+    position: relative;
+    top: 50px;
+    width: 90px;
+    border-radius: 50px;
+    border: 0px solid white;
+    z-index: 1;
+}
+.name{
+    display: flex;
+    justify-content: center;
+}
+
+.name .fullname{
+    position: relative;
+    top: 45px;
+    font-weight: 600;
+}
+
+.name .role{
+    position: absolute;
+    top: 160px;
+    font-weight: 400;
+    letter-spacing: 0.03rem;
+    color: grey;
+}
+
+.content{
+    margin-top: 15px;
+    display: block;
+    position: relative;
+    top: 45px;
+    border-bottom: 1px solid rgb(214, 214, 214);
+    border-top: 1px solid rgb(214, 214, 214);
+    padding-top: 35px;
+}
+.item{
+    display: flex;
+    justify-content: space-between;
+    margin-inline: 12px;
+    margin-top: -40px;
+}
+
+.item-text{
+    color: grey;
+    font-weight: 400;
+    letter-spacing: 0.03rem;
+}
+
+.item-number{
+    color: rgb(6, 43, 165);
+    font-weight: 700;
+    letter-spacing: 0.03rem;
+}
+
+.sub-content{
+    display: block;
+    position: relative;
+    top:50px;
+    border-bottom: 1px solid rgb(214, 214, 214);
+    padding-top: 20px;
+}
+
+.icone{
+    position: relative;
+    top: 46px;
+    width: 20px;
+    height: 20px;
+}
+
+.item-w-icone{
+    margin-inline-start: 10px;
+    display: inline;
+    position: absolute;
+    top:-27px;
+    justify-content: center;
+}
+
+.item-w-text{
+    position:relative;
+    font-weight: 600;
+    letter-spacing: 0.03rem;
+    left: 30px;
+}
+
+.card-footer{
+    display: block;
+    position: relative;
+    top:70px;
+    border-bottom: 1px solid rgb(214, 214, 214);
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    padding-top: 20px;
+}
+
+.item-footer-icone{
+    position: absolute;
+    top:-54px;
+    left: 10px;
+}
